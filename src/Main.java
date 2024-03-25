@@ -103,7 +103,11 @@ int averageResult = (lossResultOption1 + lossResultOption2) / 2;
         System.out.println("Денис теперь получает " + newSalaryDenis + " рублей. Годовой доход вырос" +
                 " на " + yearDifferenceSalaryDenis + " рублей.");
 
-
+        int newSalaryKristina = salaryKristina + (salaryKristina * 10 / 100);
+        int yearNewSalaryKristina = newSalaryKristina * monthsPerYear;
+        int yearDifferenceSalaryKristina = yearNewSalaryKristina - yearSalaryKristina;
+        System.out.println("Кристина теперь получает " + newSalaryKristina + " рублей. Годовой доход вырос" +
+                " на " + yearDifferenceSalaryKristina + " рублей.");
          ;
 
 
